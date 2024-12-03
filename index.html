@@ -1,0 +1,74 @@
+ <html>
+    <title>Login</title>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+
+        <div class="container mt-5 text-center d-flex justify-content-center align-content-center">
+            <div class="contact signinContent w-100 ">
+                <div class="contact-signin  p-5 ">
+                    <h1>Smart Login System</h1>
+                    <input type="email" placeholder="Enter your email" class="form-control username email-sgin mt-3">
+                    <input type="password" placeholder="Enter password" class="form-control username pass-sgin mt-3 mb-0">
+                    <p class="par1 text-danger pt-3 mt-0"></p>
+                    <button onclick="requireDataIn();" class="btn sign-in text-danger w-100 my-3 mt-0">Login</button>
+                    <p class="text-white mt-4 mb-0">Don’t have an account?
+                        <button class="mt-0 btn1 signin-link text-white text-decoration-none w-100 my-3">Sign Up</button>
+                    </p>
+                </div>
+            </div>
+    
+            <div class="contact signupContent d-none w-100">
+                <div class="contact-signup  p-5 ">
+                    <h1>Smart Login System</h1>
+                    <input type="text" placeholder="Enter your name" class="form-control username name-sgup mt-3">
+                    <input type="email" placeholder="Enter your email" class="form-control username email-sgup mt-3">
+                    <input type="password" placeholder="Enter password" class="form-control username pass-sgup mt-3">
+                    <p class="par text-danger pt-3"></p>
+                    <button onclick="requireDataUp();" class="sign-up btn text-danger w-100 my-3 mt-0">Sign Up</button>
+                    <p class="text-white mt-4 mb-0">You have an account?</p>
+                    <button class="mt-0 btn1 signup-link text-white text-decoration-none w-100 my-3">Sign In</button>
+                </div>
+            </div>
+
+
+           
+
+        
+        
+        </div>
+
+        <div class="home d-none">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid ">
+                <a class="navbar-brand ms-5 text-white" href="#">SMART LOGIN</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav ms-auto me-4 mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="btn btn-outline-warning" id="logout" aria-current="page" href="#">logout</a>
+                  </li>
+                
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div class="container my-5 text-center d-flex align-content-center justify-content-center">
+            <div class="group m-auto  w-75 p-5">
+                <h1 id="username"></h1>
+            </div>
+        </div>
+    </div>
+    
+    
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html> 

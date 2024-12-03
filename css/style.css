@@ -1,0 +1,68 @@
+ body{
+    padding: 0;
+    margin:0 ;
+    box-sizing: border-box;
+
+}
+body {
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+.container{
+    width: 55%;
+    position: relative;
+     overflow: hidden;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    
+    
+}
+
+
+h1 {
+    color: #17a2b8;
+}
+
+
+.username,.username:focus{
+    background-color: transparent;
+    color: white !important;
+    
+}
+.username:focus{
+   box-shadow:none !important;
+}
+::placeholder{
+    color: #ffffffbd !important;
+}
+.btn{
+    border: 2px solid #17a2b8 !important;
+    transition: backgroun 0.5s ;
+    color: #17a2b8 !important;
+}
+.btn:hover{
+    background-color: #17a2b8;
+    color: #fff !important;
+}
+button.btn1{
+    border: none;
+    background: #24353f;
+}
+.navbar{
+    box-shadow: 0px 0px 54px 0px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.navbar-brand{
+position: absolute;
+left: 10%;
+}
+
+ 
+
+
+
+
+
+
